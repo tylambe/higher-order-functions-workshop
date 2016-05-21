@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MakerSquare Callbacks Workshops</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="lib/css/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="lib/chai.js"></script>
+    <script src="lib/mocha.js"></script>
+
+    <script>mocha.setup('bdd')</script>
+
+    <!-- assertion framework -->
+    <script>var expect = chai.expect</script>
+
+    <!-- Source files -->
+    <script src="src/callbacks.js"></script>
+
+    <!-- Test files -->
+    <script src="spec/callbacks.js"></script>
+
+    <script>mocha.run()</script>
+  </body>
+</html>
