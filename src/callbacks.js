@@ -6,7 +6,7 @@
 // Note: each() does not have a return value, but rather simply runs the
 // iterator function over each item in the input collection.
 
-each = function(collection, iterator) {
+var each = function(collection, iterator) {
   // Write your code here
 };
 
@@ -16,7 +16,7 @@ each = function(collection, iterator) {
 
 // Requirement: Implement your .each() function
 
-filter = function(collection, test) {
+var filter = function(collection, test) {
   // Write your code here
 };
 
@@ -30,7 +30,7 @@ filter = function(collection, test) {
 
 // Requirement: Implement your .each() function
 
-map = function(collection, iterator) {
+var map = function(collection, iterator) {
 
   // Write your code here
 };
@@ -60,6 +60,6 @@ map = function(collection, iterator) {
 
 // Requirement: Implement your .each() function
 
-reduce = function(collection, iterator, accumulator) {
+var reduce = function(collection, iterator, accumulator) {
   // Write your code here
 };
